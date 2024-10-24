@@ -30,7 +30,7 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            generateCameraPdf(); // Llama a la función para generar el PDF
+            generateCameraPdf(boletaNumero: '00123');
           },
           child: const Text('Generar PDF'),
         ),
