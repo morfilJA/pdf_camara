@@ -1,0 +1,18 @@
+lib/
+├── src/
+│    ├── models/
+│    │   └── raffle_number_generator.dart
+│    ├── services/
+│    │   └── pdf_service.dart
+│    ├── utils/
+│    │   └── estructura.txt
+│    ├── view/
+│    │   └── home_view_page.dart
+│    ├── widgets/
+│    │   ├── raffle_ticket.dart
+│    │   ├── vertical_info_column.dart
+│    │   ├── prize_section.dart
+│    │   ├── ticket_header.dart
+│    │   └── ticket_footer.dart
+│    ├── app.dart
+└── main.dart
