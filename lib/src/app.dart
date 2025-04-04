@@ -7,6 +7,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Generador de Cartones de Rifa',
       theme: ThemeData(
         primarySwatch: Colors.blue,
