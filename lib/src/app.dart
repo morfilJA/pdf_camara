@@ -1,15 +1,16 @@
-import 'package:app/src/home_view.dart';
+import 'package:app/src/home_view_page.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
-  const App({super.key});
+  const App({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Generar PDF',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      title: 'Generador de Cartones de Rifa',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
       home: const HomeViewPage(),
     );
   }
